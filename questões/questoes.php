@@ -80,9 +80,6 @@ $nomesunicos = array_unique($nomes);
 print_r($nomesunicos)
 
 
-foreach($nomesunicos as $maiscula){
-
-};
 
 
 ?>
