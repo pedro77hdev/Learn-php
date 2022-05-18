@@ -1,3 +1,7 @@
+<?php 
+include 'salvarBD.php';
+include "conexao.php"
+?>
 <!DOCTYPE html>
 <html lang="en">
 

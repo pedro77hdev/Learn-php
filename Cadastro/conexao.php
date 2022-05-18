@@ -12,20 +12,7 @@ if(!$conexaobd) {
     echo "not connected";
 }
 
-else {
-
-    echo "connected";
-
-}
-
-$nome = $_POST['nome'];
-$sobrenome = $_POST['sobrenome'];
 
 
-$sql = mysqli_query($conexaobd, "INSERT INTO user(nome ,sobrenome) VALUES('$nome' , '$sobrenome')");
-
-if ($sql) {
-    header("location: arquivo.php");
-}
 
 ?>
